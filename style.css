@@ -74,3 +74,40 @@ body{
 .spend div:nth-child(3){
     border-radius: 0;
 }
+.c-hover{    
+    transition: all 400ms ease-in;
+    cursor: pointer;
+   
+}
+.c-hover:hover{
+    transition: all 0.4s ease-in-out;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    background:#ececec !important;
+    color:#000;
+    font-weight: bold;
+}
+.c-hover:hover .card-body-icon{
+    font-size: 30px !important;
+}
+.launchpad-card-body:hover::before{
+    background:#ececec !important;
+    transition: 0.3s linear;
+}
+.c-hover-f:hover{
+    transform: scaleY(2) translateY(15px);    
+    transform-origin: 50% 50% ;
+}
+.c-hover-s:hover{
+    transform: scaleY(2) translateY(-15px);  
+    border-radius: 5px 5px 0 0;
+}
+.c-hover-first:hover{
+    transform: scaleY(3) translateY(13px);  
+}
+.c-hover-second:hover{
+    transform: scaleY(3); 
+}
+.c-hover-third:hover{
+    transform: scaleY(3) translateY(-13.5px);  
+}
