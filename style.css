@@ -86,28 +86,35 @@ body{
     background:#ececec !important;
     color:#000;
     font-weight: bold;
+    /* box-shadow: 5px 2px 1px 0px #8e8e8e; */
 }
 .c-hover:hover .card-body-icon{
     font-size: 30px !important;
+    transition: all 0.4s ease-in-out;
 }
 .launchpad-card-body:hover::before{
     background:#ececec !important;
-    transition: 0.3s linear;
 }
+
 .c-hover-f:hover{
-    transform: scaleY(2) translateY(15px);    
-    transform-origin: 50% 50% ;
+    transform: scale(1.05,1.2) translateY(-5px); 
+    box-shadow: 7px 5px 2px #000;
+
 }
 .c-hover-s:hover{
-    transform: scaleY(2) translateY(-15px);  
+    transform: scale(1.05,1.2) translateY(5px);  
     border-radius: 5px 5px 0 0;
+    box-shadow: 7px -2px 2px #000;
 }
 .c-hover-first:hover{
-    transform: scaleY(3) translateY(13px);  
+    transform: scale(1.01, 1.5) translateY(-10px);  
+    box-shadow: 7px 5px 2px #000;
 }
 .c-hover-second:hover{
-    transform: scaleY(3); 
+    transform: scale(1.01, 1.5); 
+    box-shadow: 7px -2px 2px #000;
 }
 .c-hover-third:hover{
-    transform: scaleY(3) translateY(-13.5px);  
+    transform: scale(1.01, 1.5) translateY(10px);  
+    box-shadow: 7px -2px 2px #000;
 }
